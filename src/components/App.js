@@ -1,9 +1,9 @@
 import React, { Component, useState } from "react";
 import '../styles/App.css';
-import from './components/Heading'
-import from './components/SubHeading'
-import from './components/InputQuery'
-import from './components/SubmitButton'
+import Heading from './components/Heading'
+import SubHeading from './components/SubHeading'
+import InputQuery from './components/InputQuery'
+import  SubmitButton from './components/SubmitButton'
 const App = () => {
   return (
     <div id="main">
@@ -14,5 +14,5 @@ const App = () => {
     </div>
   )
 }
-
+export default App
 
